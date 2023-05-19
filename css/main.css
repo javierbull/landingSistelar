@@ -153,4 +153,8 @@ hr {
     align-items: center;
     gap: 1rem;
 }
+
+.navbar-toggler {
+    color: var(--primary-extra-light);
+}
 /* END HEADER */
