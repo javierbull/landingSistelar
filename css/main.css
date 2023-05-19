@@ -8,7 +8,7 @@
     --white: #FFFFFF;
     --primary-dark: #006884;
     --primary: #00809F;
-    --primary-light: #4DADBC;
+    --primary-light: #0D97BB;
     --primary-extra-light: #E6EEEF;
     --info: #1A58DD;
     --info-dark: #041E49;
@@ -125,7 +125,7 @@ hr {
 }
 
 .ghost-negative-button {
-    color: var(--primary-light);
+    color: var(--primary-extra-light);
 }
 
 .ghost-negative-button:hover {
@@ -147,7 +147,7 @@ hr {
 }
 
 .navbar-nav {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
     gap: 1rem;
