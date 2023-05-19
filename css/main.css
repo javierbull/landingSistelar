@@ -93,12 +93,31 @@ hr {
 }
 
 .outline-negative-button:hover {
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    color: var(--primary-light);
+}
+
+.outline-negative-button:focus {
+    background-color: var(--primary-extra-light);
+    border: 2px solid var(--primary-extra-light);
+    color: var(--primary-light);
+    box-shadow: 0 0 0 0.25rem rgba(230, 238, 239, 0.5);
+}
+
+.secondary-negative-button {
     background-color: var(--primary-extra-light);
     border: 2px solid var(--primary-extra-light);
     color: var(--primary-light);
 }
 
-.outline-negative-button:focus {
+.secondary-negative-button:hover {
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    color: var(--primary-light);
+}
+
+.secondary-negative-button:focus {
     background-color: var(--primary-extra-light);
     border: 2px solid var(--primary-extra-light);
     color: var(--primary-light);
@@ -110,4 +129,10 @@ hr {
     background-color: var(--primary-light);
 }
 
+.navbar-nav {
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 /* END HEADER */
