@@ -125,6 +125,7 @@ hr {
 }
 
 .ghost-negative-button {
+    border: 2px solid transparent;
     color: var(--primary-extra-light);
 }
 
