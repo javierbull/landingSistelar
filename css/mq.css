@@ -34,6 +34,16 @@
     }
     /* END SECTION ABOUT */
 
+    /* SECTION SERICE */
+    .section-services__cards {
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    
+    /* END SECTION SERVICE */
+
 }
 /* fin tablet portrait */
 /* Cell landscape */

@@ -194,7 +194,7 @@ hr {
 /* SECTION SERVICES */
 .service-card {
     background-color: var(--white);
-    border: 3px solid var(--primary);
+    border: 3px solid var(--primary-light);
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -206,7 +206,7 @@ hr {
 }
 
 .wrap-icon-card {
-    background-color: var(--primary);
+    background-color: var(--primary-light);
     height: 100px;
     width: 100px;
     display: flex;
