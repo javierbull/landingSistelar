@@ -169,7 +169,7 @@ hr {
 }
 /* END SECTION */
 /* SECTION ABOUT */
-.section-about {
+.section-about__content {
     display: flex;
     align-items: center;
     justify-content: center;
