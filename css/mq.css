@@ -27,6 +27,11 @@
 /* Tablet portrait */
 @media (max-width: 768px) {
     /* SECTION ABOUT */
+    .section {
+        /* background-color: lavender; */
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
     .section-about__content {
         /* background-color: aquamarine; */
         display: flex;
@@ -43,6 +48,10 @@
     .section-about__text {
         /* background-color: aqua; */
         text-align: center;
+    }
+
+    .d-none-mobile {
+        display: none;
     }
     /* END SECTION ABOUT */
 
