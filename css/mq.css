@@ -15,6 +15,12 @@
     }
     /* END SECTION ABOUT */
 
+    /* SECTION BRAND */
+    .img-brand {
+        width: 20rem;
+    }
+    /* END SECTION BRAND */
+
 }
 /* Fin tablet landscape */
 
@@ -44,17 +50,35 @@
     
     /* END SECTION SERVICE */
 
+    /* SECTION BRAND */
+    .img-brand-logo {
+        width: 5rem;
+    }
+    /* END SECTION BRAND */
+
 }
 /* fin tablet portrait */
 /* Cell landscape */
 @media (max-width: 736px) {
-
+    /* SECTION BRAND */
+    .section-brand__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    /* END SECTION BRAND */
 }
 /* Fin cell landscape */
 
 /* Cell portrait */
 @media (max-width: 480px) {
-
+    /* SECTION BRAND */
+    .img-brand {
+        width: 100%;
+    }
+    /* END SECTION BRAND */
 }
 /* Fin cell portrait */
 
