@@ -29,6 +29,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -164,8 +165,8 @@ hr {
 /* SECTION */
 .section {
     /* background-color: lavender; */
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
 }
 /* END SECTION */
 /* SECTION ABOUT */
