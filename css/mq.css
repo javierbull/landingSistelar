@@ -17,15 +17,22 @@
 
 }
 /* Fin tablet landscape */
-/* Big cell landscape */
-@media (max-width: 916px) {
 
-
-}
-/* Fin Big cell landscape */
 /* Tablet portrait */
 @media (max-width: 768px) {
+    /* SECTION ABOUT */
+    .section-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
 
+    .video {
+        min-width: 100%;
+    }
+    /* END SECTION ABOUT */
 
 }
 /* fin tablet portrait */
