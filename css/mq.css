@@ -5,6 +5,15 @@
 /* Fin laptop */
 /* Tablet landscape */
 @media (max-width: 1024px) {
+    /* SECTION ABOUT */
+    .video {
+        min-width: 450px;
+    }
+
+    .heading-1 {
+        font-size: 2rem;
+    }
+    /* END SECTION ABOUT */
 
 }
 /* Fin tablet landscape */
