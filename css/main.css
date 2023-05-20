@@ -230,6 +230,34 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
-
-
 /* END SECTION SERVICES */
+
+/* SECTION BRAND */
+.section-brand__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.img-brand {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 30rem;
+}
+
+.section-brand__text {
+    text-align: center;
+}
+
+.img-brand-logo {
+    width: 8rem;
+}
+
+.slogan {
+    font-size: 1.5rem;
+}
+/* END SECTION BRAND */
