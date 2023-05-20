@@ -38,7 +38,6 @@ body {
 }
 
 main {
-    background-color: var(--background);
     min-height: 100vh;
 }
 
@@ -163,7 +162,7 @@ hr {
 
 /* SECTION */
 .section {
-    background-color: lavender;
+    /* background-color: lavender; */
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
@@ -186,4 +185,51 @@ hr {
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
+
+.bg-section {
+    background-color: var(--background);
+}
 /* END SECTION ABOUT */
+
+/* SECTION SERVICES */
+.service-card {
+    background-color: var(--white);
+    border: 3px solid var(--primary);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 4rem 1rem 1rem 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.wrap-icon-card {
+    background-color: var(--primary);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-services__cards {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+
+/* END SECTION SERVICES */
