@@ -172,25 +172,18 @@ hr {
 .section-about {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
-    
 }
 
-.container-video {
-    display: block;
-    background-color: tomato;
+.video {
+    min-width: 560px;
+    aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    min-width: 600px;
-    height: 340px;
-}
-
-.video {
-    width: 100%;
-    height: 100%;
 }
 /* END SECTION ABOUT */
