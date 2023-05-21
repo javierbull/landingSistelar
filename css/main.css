@@ -145,6 +145,30 @@ hr {
     box-shadow: 0 0 0 0.25rem rgba(230, 238, 239, 0.5);
 }
 
+.primary-button {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.primary-button:hover {
+    background-color: var(--primary-light);
+    color: var(--white);
+}
+
+.primary-button:focus {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary-dark);
+    box-shadow: 0 0 0 0.25rem rgba(16, 158, 181, 0.5);
+}
+
+.primary-button.disabled,
+.primary-button:disabled {
+    background-color: var(--background);
+    color: var(--grey-dark);
+    opacity: 1;
+}
+
 /* HEADER */
 .navbar-sistelar {
     background-color: var(--primary-light);
@@ -231,6 +255,12 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+}
+
+.wrap-cta {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 /* END SECTION SERVICES */
 
