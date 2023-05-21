@@ -293,3 +293,54 @@ hr {
     font-size: 1.5rem;
 }
 /* END SECTION BRAND */
+
+/* FOOTER */
+footer {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.logo-footer {
+    width: 12rem;
+}
+
+.footer-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.title-footer-list {
+    color: var(--primary-light);
+    font-size: 1.5rem;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-list-item {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-list-item p {
+    margin-bottom: 0;
+}
+
+.footer-list-item span {
+    color: var(--primary-light);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* END FOOTER */
